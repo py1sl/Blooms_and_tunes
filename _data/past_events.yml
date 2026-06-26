@@ -1,0 +1,32 @@
+years:
+  - year: 2026
+    description: "Our second annual Blooms and Tunes featured the theme 'Wild and Wonderful', celebrating native British wildflowers. Over 400 visitors enjoyed the displays across the weekend."
+    photos:
+      - src: /assets/images/gallery/2026-01.jpg
+        caption: "Wild garden display in the nave"
+      - src: /assets/images/gallery/2026-02.jpg
+        caption: "The village choir performing"
+      - src: /assets/images/gallery/2026-03.jpg
+        caption: "Poppy and cornflower arch at the entrance"
+      - src: /assets/images/gallery/2026-04.jpg
+        caption: "Young musicians showcase"
+      - src: /assets/images/gallery/2026-05.jpg
+        caption: "Prize-winning pew end display"
+      - src: /assets/images/gallery/2026-06.jpg
+        caption: "Churchyard in full bloom"
+
+  - year: 2025
+    description: "Our first ever Blooms and Tunes event launched with the theme 'English Country Garden'. A wonderful community weekend enjoyed by over 300 visitors."
+    photos:
+      - src: /assets/images/gallery/2025-01.jpg
+        caption: "Opening display in the chancel"
+      - src: /assets/images/gallery/2025-02.jpg
+        caption: "Handbell ringers in the nave"
+      - src: /assets/images/gallery/2025-03.jpg
+        caption: "Rose and lavender window display"
+      - src: /assets/images/gallery/2025-04.jpg
+        caption: "Community choir performance"
+      - src: /assets/images/gallery/2025-05.jpg
+        caption: "Children's flower craft stall"
+      - src: /assets/images/gallery/2025-06.jpg
+        caption: "Closing ceremony and prize-giving"

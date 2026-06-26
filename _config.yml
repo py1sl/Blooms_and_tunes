@@ -1,0 +1,34 @@
+title: Blooms and Tunes 2027
+description: A celebration of flowers and music at St Mary's Church
+baseurl: "/Blooms_and_tunes"
+url: "https://py1sl.github.io"
+
+# Church contact details (used in footer)
+church:
+  name: St Mary's Church
+  address_line1: Church Lane
+  address_line2: Anytown
+  postcode: AN1 2BC
+  email: info@stmarys.example.org
+
+# Event details
+event:
+  year: 2027
+  dates: "Saturday 5 & Sunday 6 July 2027"
+  location: St Mary's Church and Churchyard
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .bundle/
