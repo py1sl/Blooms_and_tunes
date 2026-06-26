@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Smith's Garden Centre",
+    "logo": "/assets/images/sponsors/smiths-garden-centre.png",
+    "website": "https://example.com/smiths",
+    "description": "Your local garden centre — plants, seeds and everything in between."
+  },
+  {
+    "name": "The Old Bell Inn",
+    "logo": "/assets/images/sponsors/old-bell-inn.png",
+    "website": "https://example.com/old-bell",
+    "description": "Fine food, real ales and a warm welcome in the heart of Anytown."
+  },
+  {
+    "name": "Anytown Florists",
+    "logo": "/assets/images/sponsors/anytown-florists.png",
+    "website": "https://example.com/florists",
+    "description": "Fresh flowers and bespoke arrangements for every occasion."
+  },
+  {
+    "name": "Greenways Nursery",
+    "logo": "/assets/images/sponsors/greenways-nursery.png",
+    "website": "https://example.com/greenways",
+    "description": "Specialist growers of rare and heritage plants."
+  },
+  {
+    "name": "Anytown Print & Design",
+    "logo": "/assets/images/sponsors/anytown-print.png",
+    "website": "",
+    "description": "Printing and design services for businesses and events."
+  },
+  {
+    "name": "Community Credit Union",
+    "logo": "/assets/images/sponsors/community-credit-union.png",
+    "website": "https://example.com/ccu",
+    "description": "Ethical savings and loans for the local community."
+  }
+]

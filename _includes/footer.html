@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <address>
+      <p class="church-name">{{ site.church.name }}</p>
+      <p>{{ site.church.address_line1 }}, {{ site.church.address_line2 }}, {{ site.church.postcode }}</p>
+      <p>Email: <a href="mailto:{{ site.church.email }}">{{ site.church.email }}</a></p>
+    </address>
+    <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.church.name }}</p>
+  </div>
+</footer>

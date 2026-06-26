@@ -1,0 +1,484 @@
+/* ============================================================
+   Blooms and Tunes 2027 — Stylesheet
+   ============================================================ */
+
+/* --- Reset & Base ----------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #2c2c2c;
+  background: #fafaf7;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #2e6b29;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #1a4218;
+}
+
+/* --- Header ----------------------------------------------- */
+.site-header {
+  background: #2e6b29;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.site-title a:hover {
+  color: #d4f0d0;
+}
+
+/* --- Navigation ------------------------------------------- */
+#nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+#nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: background 0.15s ease;
+}
+
+#nav-menu a:hover,
+#nav-menu a:focus {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+#nav-menu a.active {
+  background: rgba(255,255,255,0.25);
+  font-weight: bold;
+}
+
+/* --- Hamburger Button ------------------------------------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 8px;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 22px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* Animated X when open */
+.hamburger[aria-expanded="true"] .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger[aria-expanded="true"] .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger[aria-expanded="true"] .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* --- Main Content ----------------------------------------- */
+#main-content {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #1a4218;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2rem; margin-bottom: 1rem; }
+h2 { font-size: 1.5rem; margin: 2rem 0 0.75rem; }
+h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
+
+p { margin-bottom: 1rem; }
+
+ul, ol {
+  margin: 0 0 1rem 1.5rem;
+}
+
+/* --- Hero / Intro ----------------------------------------- */
+.hero {
+  background: #eaf5e9;
+  border-left: 5px solid #2e6b29;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.event-meta-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.event-meta-item strong {
+  color: #1a4218;
+  white-space: nowrap;
+}
+
+.hero-image {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.hero-image figcaption {
+  background: #2e6b29;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  text-align: center;
+}
+
+/* --- Timetable -------------------------------------------- */
+.timetable-day {
+  margin-bottom: 2.5rem;
+}
+
+.timetable-day h2 {
+  border-bottom: 2px solid #2e6b29;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.timetable-table th {
+  background: #2e6b29;
+  color: #fff;
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+}
+
+.timetable-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid #dde8dc;
+  vertical-align: top;
+}
+
+.timetable-table tr:last-child td {
+  border-bottom: none;
+}
+
+.timetable-table tr:nth-child(even) td {
+  background: #f3f9f2;
+}
+
+.timetable-table .time-col {
+  white-space: nowrap;
+  font-weight: bold;
+  color: #2e6b29;
+  width: 6rem;
+}
+
+.timetable-table .venue-col {
+  font-style: italic;
+  font-size: 0.88rem;
+  color: #555;
+  width: 10rem;
+}
+
+/* --- Gallery ---------------------------------------------- */
+.gallery-year {
+  margin-bottom: 3rem;
+}
+
+.gallery-year h2 {
+  border-bottom: 2px solid #2e6b29;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  background: #fff;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.03);
+}
+
+.gallery-item figcaption {
+  font-size: 0.82rem;
+  color: #555;
+  padding: 0.4rem 0.6rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+/* --- Sponsors --------------------------------------------- */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.sponsor-card {
+  background: #fff;
+  border: 1px solid #dde8dc;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sponsor-card img {
+  max-height: 80px;
+  max-width: 160px;
+  object-fit: contain;
+}
+
+.sponsor-card .sponsor-name {
+  font-weight: bold;
+  color: #1a4218;
+  font-size: 1rem;
+}
+
+.sponsor-card a {
+  font-size: 0.85rem;
+  color: #2e6b29;
+}
+
+.sponsor-card .sponsor-desc {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* --- Footer ----------------------------------------------- */
+.site-footer {
+  background: #2e6b29;
+  color: #d4f0d0;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-footer address {
+  font-style: normal;
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
+.site-footer .church-name {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.site-footer a {
+  color: #b6e5b2;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: #a8d8a4;
+  margin-top: 0.5rem;
+}
+
+/* --- Utility ---------------------------------------------- */
+.blurb {
+  max-width: 720px;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+/* --- Responsive / Mobile ---------------------------------- */
+@media (max-width: 768px) {
+  .site-title a {
+    font-size: 1.2rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  #nav-menu {
+    display: none;
+    width: 100%;
+    order: 3;
+  }
+
+  #nav-menu.is-open {
+    display: block;
+  }
+
+  #nav-menu ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 0;
+  }
+
+  #nav-menu a {
+    display: block;
+    padding: 0.6rem 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-radius: 0;
+  }
+
+  #nav-menu a:hover,
+  #nav-menu a:focus {
+    background: rgba(255,255,255,0.15);
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+
+  .event-meta {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .timetable-table {
+    font-size: 0.85rem;
+  }
+
+  .timetable-table .venue-col {
+    display: none;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .gallery-item img {
+    height: 130px;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
