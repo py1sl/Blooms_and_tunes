@@ -1,0 +1,23 @@
+{% assign year_entry = site.data.past_events.years | where: "year", page.event_year | first %}
+{% if year_entry %}
+<h1>{{ year_entry.year }} Past Event</h1>
+
+{% if year_entry.description %}
+<p class="blurb">{{ year_entry.description }}</p>
+{% endif %}
+
+<div class="gallery-year">
+  <div class="gallery-grid">
+    {% for photo in year_entry.photos %}
+    <figure class="gallery-item">
+      <img src="{{ photo.src | relative_url }}"
+           alt="{{ photo.caption }}"
+           loading="lazy">
+      <figcaption>{{ photo.caption }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</div>
+
+<p><a href="{{ '/past-events' | relative_url }}">Back to all past events</a></p>
+{% endif %}

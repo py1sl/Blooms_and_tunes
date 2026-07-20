@@ -13,7 +13,15 @@
         <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a></li>
         <li><a href="{{ '/blooms' | relative_url }}"{% if page.url contains 'blooms' %} class="active" aria-current="page"{% endif %}>Blooms</a></li>
         <li><a href="{{ '/tunes' | relative_url }}"{% if page.url contains 'tunes' %} class="active" aria-current="page"{% endif %}>Tunes</a></li>
-        <li><a href="{{ '/past-events' | relative_url }}"{% if page.url contains 'past-events' %} class="active" aria-current="page"{% endif %}>Past Events</a></li>
+        <li class="nav-dropdown">
+          <a href="{{ '/past-events' | relative_url }}"{% if page.url contains 'past-events' %} class="active" aria-current="page"{% endif %}>Past Events</a>
+          <ul class="nav-dropdown-menu" aria-label="Past event years">
+            {% for year_entry in site.data.past_events.years %}
+            {% assign event_path = '/past-events/' | append: year_entry.year | append: '/' %}
+            <li><a href="{{ event_path | relative_url }}"{% if page.url == event_path %} class="active" aria-current="page"{% endif %}>{{ year_entry.year }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="{{ '/sponsors' | relative_url }}"{% if page.url contains 'sponsors' %} class="active" aria-current="page"{% endif %}>Sponsors</a></li>
       </ul>
     </nav>
