@@ -1,5 +1,5 @@
 years:
-  - year: 2026
+  - year: 2025
     description: "Our second annual Blooms and Tunes featured the theme 'Wild and Wonderful', celebrating native British wildflowers. Over 400 visitors enjoyed the displays across the weekend."
     photos:
       - src: /assets/images/gallery/2026-01.jpg
@@ -15,7 +15,7 @@ years:
       - src: /assets/images/gallery/2026-06.jpg
         caption: "Churchyard in full bloom"
 
-  - year: 2025
+  - year: 2023
     description: "Our first ever Blooms and Tunes event launched with the theme 'English Country Garden'. A wonderful community weekend enjoyed by over 300 visitors."
     photos:
       - src: /assets/images/gallery/2025-01.jpg
