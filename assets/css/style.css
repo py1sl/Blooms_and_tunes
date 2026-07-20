@@ -35,18 +35,18 @@ img {
 }
 
 a {
-  color: #2e6b29;
+  color: #332b80;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #1a4218;
+  color: #1d1842;
 }
 
 /* --- Header ----------------------------------------------- */
 .site-header {
-  background: #2e6b29;
+  background: #332b80;
   color: #fff;
   padding: 0.75rem 1rem;
   position: sticky;
@@ -75,7 +75,7 @@ a:focus {
 }
 
 .site-title a:hover {
-  color: #d4f0d0;
+  color: #d1d0f0;
 }
 
 /* --- Navigation ------------------------------------------- */
@@ -117,7 +117,7 @@ a:focus {
   left: 0;
   min-width: 10rem;
   padding: 0.35rem 0;
-  background: #2e6b29;
+  background: #332b80;
   border-radius: 6px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.25);
   z-index: 200;
@@ -184,7 +184,7 @@ a:focus {
 
 h1, h2, h3 {
   font-family: Georgia, serif;
-  color: #1a4218;
+  color: #1d1842;
   line-height: 1.3;
 }
 
@@ -200,8 +200,8 @@ ul, ol {
 
 /* --- Hero / Intro ----------------------------------------- */
 .hero {
-  background: #eaf5e9;
-  border-left: 5px solid #2e6b29;
+  background: #eae9f4;
+  border-left: 5px solid #332b80;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 0 6px 6px 0;
@@ -225,7 +225,7 @@ ul, ol {
 }
 
 .event-meta-item strong {
-  color: #1a4218;
+  color: #1d1842;
   white-space: nowrap;
 }
 
@@ -244,7 +244,7 @@ ul, ol {
 }
 
 .hero-image figcaption {
-  background: #2e6b29;
+  background: #332b80;
   color: #fff;
   font-size: 0.85rem;
   padding: 0.4rem 0.75rem;
@@ -257,7 +257,7 @@ ul, ol {
 }
 
 .timetable-day h2 {
-  border-bottom: 2px solid #2e6b29;
+  border-bottom: 2px solid #332b80;
   padding-bottom: 0.4rem;
   margin-bottom: 0.75rem;
 }
@@ -269,7 +269,7 @@ ul, ol {
 }
 
 .timetable-table th {
-  background: #2e6b29;
+  background: #332b80;
   color: #fff;
   text-align: left;
   padding: 0.6rem 0.75rem;
@@ -277,7 +277,7 @@ ul, ol {
 
 .timetable-table td {
   padding: 0.55rem 0.75rem;
-  border-bottom: 1px solid #dde8dc;
+  border-bottom: 1px solid #dddbe8;
   vertical-align: top;
 }
 
@@ -286,13 +286,13 @@ ul, ol {
 }
 
 .timetable-table tr:nth-child(even) td {
-  background: #f3f9f2;
+  background: #f2f1f9;
 }
 
 .timetable-table .time-col {
   white-space: nowrap;
   font-weight: bold;
-  color: #2e6b29;
+  color: #332b80;
   width: 6rem;
 }
 
@@ -309,7 +309,7 @@ ul, ol {
 }
 
 .gallery-year h2 {
-  border-bottom: 2px solid #2e6b29;
+  border-bottom: 2px solid #332b80;
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
@@ -356,7 +356,7 @@ ul, ol {
 
 .sponsor-card {
   background: #fff;
-  border: 1px solid #dde8dc;
+  border: 1px solid #dddbe8;
   border-radius: 8px;
   padding: 1.25rem;
   text-align: center;
@@ -375,13 +375,13 @@ ul, ol {
 
 .sponsor-card .sponsor-name {
   font-weight: bold;
-  color: #1a4218;
+  color: #1d1842;
   font-size: 1rem;
 }
 
 .sponsor-card a {
   font-size: 0.85rem;
-  color: #2e6b29;
+  color: #332b80;
 }
 
 .sponsor-card .sponsor-desc {
@@ -391,8 +391,8 @@ ul, ol {
 
 /* --- Footer ----------------------------------------------- */
 .site-footer {
-  background: #2e6b29;
-  color: #d4f0d0;
+  background: #332b80;
+  color: #d1d0f0;
   padding: 1.5rem 1rem;
   margin-top: auto;
 }
@@ -417,7 +417,7 @@ ul, ol {
 }
 
 .site-footer a {
-  color: #b6e5b2;
+  color: #b6b2e5;
 }
 
 .site-footer a:hover {
@@ -426,7 +426,7 @@ ul, ol {
 
 .footer-copy {
   font-size: 0.82rem;
-  color: #a8d8a4;
+  color: #a8a4d7;
   margin-top: 0.5rem;
 }
 
@@ -441,7 +441,7 @@ ul, ol {
   margin-bottom: 2rem;
   padding: 1.5rem;
   background: #fff;
-  border: 1px solid #dde8dc;
+  border: 1px solid #dddbe8;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.07);
 }
