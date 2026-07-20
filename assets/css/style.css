@@ -86,6 +86,10 @@ a:focus {
   align-items: center;
 }
 
+#nav-menu li {
+  position: relative;
+}
+
 #nav-menu a {
   color: #fff;
   text-decoration: none;
@@ -104,6 +108,34 @@ a:focus {
 #nav-menu a.active {
   background: rgba(255,255,255,0.25);
   font-weight: bold;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  min-width: 10rem;
+  padding: 0.35rem 0;
+  background: #2e6b29;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  z-index: 200;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-menu li {
+  width: 100%;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  width: 100%;
+  border-radius: 0;
 }
 
 /* --- Hamburger Button ------------------------------------- */
@@ -405,6 +437,23 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
+.event-card {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #dde8dc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+.event-card h2 {
+  margin-top: 0;
+}
+
+.event-link {
+  font-weight: bold;
+}
+
 /* --- Responsive / Mobile ---------------------------------- */
 @media (max-width: 768px) {
   .site-title a {
@@ -431,11 +480,29 @@ ul, ol {
     padding: 0.5rem 0;
   }
 
+  #nav-menu li {
+    width: 100%;
+  }
+
   #nav-menu a {
     display: block;
     padding: 0.6rem 0.5rem;
     border-top: 1px solid rgba(255,255,255,0.15);
     border-radius: 0;
+  }
+
+  .nav-dropdown-menu {
+    display: block;
+    position: static;
+    min-width: 0;
+    padding: 0 0 0.5rem 0.75rem;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 
   #nav-menu a:hover,

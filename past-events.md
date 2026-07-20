@@ -6,27 +6,19 @@ title: Past Events
 # Past Events
 
 <p class="blurb">
-Blooms and Tunes began in 2025 and has grown into one of the most popular events
-in the Anytown community calendar. Browse photographs from our previous events below.
+Blooms and Tunes began in 2025 and has quickly become a highlight of the
+Anytown community calendar. Explore each past event below for a short overview,
+then follow through to the dedicated gallery page for photographs and captions.
 </p>
 
 {% for year_entry in site.data.past_events.years %}
-<div class="gallery-year">
-  <h2>{{ year_entry.year }}</h2>
+<section class="event-card">
+  <h2>{{ year_entry.year }} Past Event</h2>
   {% if year_entry.description %}
   <p>{{ year_entry.description }}</p>
   {% endif %}
-  <div class="gallery-grid">
-    {% for photo in year_entry.photos %}
-    <figure class="gallery-item">
-      <img src="{{ photo.src | relative_url }}"
-           alt="{{ photo.caption }}"
-           loading="lazy">
-      <figcaption>{{ photo.caption }}</figcaption>
-    </figure>
-    {% endfor %}
-  </div>
-</div>
+  <p><a class="event-link" href="{{ '/past-events/' | append: year_entry.year | append: '/' | relative_url }}">View the {{ year_entry.year }} event page</a></p>
+</section>
 {% endfor %}
 
 ---
