@@ -1,5 +1,10 @@
 days:
-  - date: "Saturday 5 July 2027"
+  - date: "Friday 21st May 2027"
+    sessions:
+      - time: "19:00"
+        performer: "St Mary's Church Choir"
+        type: "Choral"
+  - date: "Saturday 22nd May 2027"
     sessions:
       - time: "10:00"
         performer: "St Mary's Church Choir"
@@ -42,7 +47,7 @@ days:
         venue: "Nave"
         notes: "All welcome"
 
-  - date: "Sunday 6 July 2027"
+  - date: "Sunday 23rd May 2027"
     sessions:
       - time: "09:30"
         performer: "Morning Worship"
