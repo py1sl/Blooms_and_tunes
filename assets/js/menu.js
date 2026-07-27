@@ -20,4 +20,15 @@
       navMenu.classList.remove('is-open');
     }
   });
+
+  /* Dropdown toggle button for mobile */
+  var dropdownToggle = navMenu.querySelector('.nav-dropdown-toggle');
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener('click', function () {
+      var dropdownLi = this.closest('.nav-dropdown');
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!expanded));
+      dropdownLi.classList.toggle('is-open', !expanded);
+    });
+  }
 }());
