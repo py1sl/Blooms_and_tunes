@@ -79,7 +79,7 @@ a:focus {
 }
 
 /* --- Navigation ------------------------------------------- */
-#nav-menu ul {
+#nav-menu > ul {
   list-style: none;
   display: flex;
   gap: 0.25rem;
@@ -478,7 +478,7 @@ ul, ol {
     display: block;
   }
 
-  #nav-menu ul {
+  #nav-menu > ul {
     flex-direction: column;
     gap: 0;
     padding: 0.5rem 0;
