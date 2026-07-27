@@ -79,7 +79,7 @@ a:focus {
 }
 
 /* --- Navigation ------------------------------------------- */
-#nav-menu ul {
+#nav-menu > ul {
   list-style: none;
   display: flex;
   gap: 0.25rem;
@@ -136,6 +136,10 @@ a:focus {
   display: block;
   width: 100%;
   border-radius: 0;
+}
+
+.nav-dropdown-toggle {
+  display: none;
 }
 
 /* --- Hamburger Button ------------------------------------- */
@@ -474,7 +478,7 @@ ul, ol {
     display: block;
   }
 
-  #nav-menu ul {
+  #nav-menu > ul {
     flex-direction: column;
     gap: 0;
     padding: 0.5rem 0;
@@ -492,7 +496,6 @@ ul, ol {
   }
 
   .nav-dropdown-menu {
-    display: block;
     position: static;
     min-width: 0;
     padding: 0 0 0.5rem 0.75rem;
@@ -500,9 +503,30 @@ ul, ol {
     box-shadow: none;
   }
 
+  .nav-dropdown.is-open .nav-dropdown-menu {
+    display: block;
+  }
+
   .nav-dropdown-menu a {
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     font-size: 0.9rem;
+  }
+
+  .nav-dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-toggle {
+    transform: rotate(180deg);
   }
 
   #nav-menu a:hover,
