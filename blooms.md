@@ -5,51 +5,32 @@ title: Blooms
 
 # Blooms
 
-## This Year's Theme: "Through the Seasons"
+## This Year's Theme: "Hobbies and Pastimes"
 
 <p class="blurb">
-For Blooms and Tunes 2027 our talented flower arrangers have chosen <strong>"Through
-the Seasons"</strong> as their theme — a journey from the first snowdrops of winter
-through the blossoms of spring, the abundance of summer and the rich harvest colours
-of autumn, all told through the art of floral display.
+For Blooms and Tunes 2027 our talented flower arrangers have chosen <strong>"Hobbies and Pastimes"</strong> as their theme — a journey from sports and games to collecting and creating, all told through the art of floral display.
 </p>
-
-The theme invites arrangers to tell the story of a single year in the English
-countryside: crisp whites and pale greens giving way to daffodil yellows and cherry
-pinks, then the deep purples and scarlets of midsummer, and finally the bronzes,
-golds and russets of autumn harvest.
 
 ## What You Will See
 
-Displays will be arranged throughout the church and churchyard, each interpreting
-a different point in the seasonal cycle:
+Displays will be arranged throughout the church, each interpreting a different hobby or pastime including:
 
-- **West door arch** — *Snowdrops and Winter Berries*
-- **Font** — *Spring Awakening: primrose and bluebell*
-- **Chancel** — *Midsummer Abundance* (the centrepiece display)
-- **Altar** — *Harvest Thanksgiving*
-- **Side aisle pew ends** — *The Four Seasons* (a sequence of 12 arrangements)
-- **Churchyard gate** — *Autumnal Hedgerow*
+- **Reading**
+- **Woodturning**
+- **Knitting**
+- **Weaving**
 
 Visitors are encouraged to pick up a map at the door and follow the trail from
 display to display at their own pace.
 
 ## About the Arrangers
 
-This year's displays are created by over thirty volunteer arrangers drawn from local
-flower-arranging clubs, the Women's Institute, horticultural societies and
-individual enthusiasts. Many have travelled from neighbouring villages to
-take part.
+All the arrangers are keen enthusiasts from the local area.  Everyone has a different level of  experience and ability but each brings fresh ideas and energy to the festival.  We actively welcome anyone who would like to have a go. .
 
-A prize for the best individual display is awarded at the closing ceremony on
-Sunday afternoon, voted for by visitors throughout the weekend.
 
-## Demonstrations
+## About the Flowers
 
-Flower arranging demonstrations will take place in the church hall on both
-Saturday and Sunday afternoons. Led by experienced arrangers, these short
-sessions are free to attend and suitable for all ages. No booking required —
-just turn up.
+We are keen for the festival to be as sustainable as possible and therefore source our flowers locally.  The majority of flowers used in the displays come from Home Close Flowers (https://www.homecloseflowers.co.uk/) in Sibford Ferris (12 miles away).  All other flowers and foliage come from the gardens in Duns Tew and surrounding villages.
 
 ---
 
