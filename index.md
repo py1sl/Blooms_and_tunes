@@ -6,10 +6,7 @@ title: Home
 <div class="hero">
   <h1>Welcome to Blooms and Tunes 2027</h1>
   <p class="blurb">
-    Join us for a wonderful weekend of spectacular flower displays and live music at
-    St Mary's Church, Anytown. Now in its third year, Blooms and Tunes is a beloved
-    community celebration bringing together talented floral arrangers, musicians,
-    singers and bell-ringers from across the district.
+    Join us for a wonderful three days of spectacular flower displays and live music at St Mary Magdalene Church, Duns Tew. 
   </p>
   <div class="event-meta">
     <div class="event-meta-item">
@@ -22,37 +19,38 @@ title: Home
     </div>
     <div class="event-meta-item">
       <strong>Admission:</strong>
-      <span>Free — donations welcome</span>
+      <span>Afternoons Free — donations welcome, Evening concerts - £X</span>
     </div>
   </div>
 </div>
 
 <figure class="hero-image">
   <img src="{{ '/assets/images/event.jpg' | relative_url }}"
-       alt="St Mary's Church decorated with flower displays during a previous Blooms and Tunes event">
-  <figcaption>St Mary's Church dressed for Blooms and Tunes — past event photograph</figcaption>
-</figure>
+       alt="Blooms and Tunes">
+
 
 ## About the Event
 
-Blooms and Tunes takes place over one weekend each July, filling St Mary's Church
-and its grounds with breathtaking floral arrangements crafted around an annual theme.
-Throughout the weekend, a programme of live music — from choral singing and organ
-recitals to folk sessions and handbell ringing — accompanies the displays.
+This is the third instalment of our biennial event, having previously been in May 2025 and August 2023.  Blooms and Tunes takes place over three days and fills Duns Tew’s Church with beautiful floral arrangements crafted around a central theme. Throughout the festival, a programme of live music — from choral singing and instrument recitals to vocal performances and folk sessions  — accompanies the displays.
 
-The event is entirely run by volunteers and supported by generous local sponsors.
-All proceeds go towards the upkeep of the church building and its community programmes.
+Delicious cakes, tea and coffee will be served each afternoon and children's activities will be available throughout the festival.
 
-## What to Expect
-
-- Stunning flower displays inside the church and in the churchyard
-- Two days of live music across a variety of styles
-- A young musicians showcase celebrating local talent
-- Flower arranging demonstrations
-- Refreshments in the church hall
-- A grand prize-giving ceremony on Sunday afternoon
+The event is entirely run by volunteers and supported by generous local sponsors. All proceeds are split between the upkeep of the church and a chosen charity, which for this year is Helen and Douglas House Hospice.
 
 We look forward to welcoming you!
+
+## Timings
+
+Friday 21st May
+13:00-16:30 - Floral Focus (no music)
+19:00 - Evening concert
+
+Saturday 22nd May
+13:00-16:30 - Flowers and music
+19:00 - Evening concert
+
+Sunday 23rd May
+13:00-16:30 - Flowers and music
 
 ---
 
