@@ -6,9 +6,7 @@ title: Past Events
 # Past Events
 
 <p class="blurb">
-Blooms and Tunes began in 2025 and has quickly become a highlight of the
-Anytown community calendar. Explore each past event below for a short overview,
-then follow through to the dedicated gallery page for photographs and captions.
+Blooms and Tunes began in 2023 and has become a biennial highlight. Explore each of our previous events using the links below.
 </p>
 
 {% for year_entry in site.data.past_events.years %}
