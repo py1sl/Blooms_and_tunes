@@ -1,19 +1,44 @@
 years:
   - year: 2025
-    description: "Our second annual Blooms and Tunes featured the theme 'Wild and Wonderful', celebrating native British wildflowers. Over 400 visitors enjoyed the displays across the weekend."
+    description: "Our second Blooms and Tunes featured the theme 'A Good Read' for the flower arrangements.  Each arranger chose a favourite book to depict in flowers and local school children designed book covers for their favourite book."
     photos:
-      - src: /assets/images/gallery/2026-01.jpg
-        caption: "Wild garden display in the nave"
-      - src: /assets/images/gallery/2026-02.jpg
-        caption: "The village choir performing"
-      - src: /assets/images/gallery/2026-03.jpg
-        caption: "Poppy and cornflower arch at the entrance"
-      - src: /assets/images/gallery/2026-04.jpg
-        caption: "Young musicians showcase"
-      - src: /assets/images/gallery/2026-05.jpg
-        caption: "Prize-winning pew end display"
-      - src: /assets/images/gallery/2026-06.jpg
-        caption: "Churchyard in full bloom"
+      - src: /assets/images/gallery/2025-01.jpg
+        caption: "Wilding - created by Tom Goffe"
+      - src: /assets/images/gallery/2025-02.jpg
+        caption: "The Darling Buds of May - created by Angela Hanna"
+      - src: /assets/images/gallery/2025-03.jpg
+        caption: "A Good Read - book covers designed by pupils at Middle Barton Primary School and Dr Radcliffe's Church of England Primary School"
+      - src: /assets/images/gallery/2025-04.jpg
+        caption: "A Good Read - book covers designed by pupils at Middle Barton Primary School and Dr Radcliffe's Church of England Primary School"
+      - src: /assets/images/gallery/2025-05.jpg
+        caption: "Tidy - created by Gill Hayduk"
+      - src: /assets/images/gallery/2025-06.jpg
+        caption: "Peter Rabbit - created by Anne Reeve"
+      - src: /assets/images/gallery/2025-07.jpg
+        caption: "80th Anniversary of Victory in Europe and Victory over Japan - created by Carol Rigby"
+      - src: /assets/images/gallery/2025-08.jpg
+        caption: "The Mad Hatter’s Tea Party, Alice in Wonderland - created by Carol Rigby"
+      - src: /assets/images/gallery/2025-09.jpg
+        caption: "The Very Hungry Caterpillar - created by Deborah Bailey"
+      - src: /assets/images/gallery/2025-10.jpg
+        caption: "The Gruffalo - created by Clare Burgess and Susan Birks"
+      - src: /assets/images/gallery/2025-11.jpg
+        caption: "The Garden of Eden from The Bible - created by Rikje Haschen"
+      - src: /assets/images/gallery/2026-12.jpg
+        caption: "Village Christmas: And other Notes on the English Year - May - created by Alison Day"
+      - src: /assets/images/gallery/2025-13.jpg
+        caption: "The Tiger Who Came To Tea - created by Melissa and Amelie Dinwiddy"
+      - src: /assets/images/gallery/2025-14.jpg
+        caption: "The Secret Garden - created by Susan Lilley"
+      - src: /assets/images/gallery/2025-15.jpg
+        caption: "Tulip Fever - created by Maria Coonick"
+      - src: /assets/images/gallery/2025-16.jpg
+        caption: "Lessons in Chemistry - created by Jo Lilley"
+      - src: /assets/images/gallery/2025-17.jpg
+        caption: "The Wood – the Life and Times of Cockshutt Wood - created by Jane McBean and Helen Hamilton "
+      - src: /assets/images/gallery/2026-18.jpg
+        caption: "Paddington - created by Abigail Lilley"
+    description: "For more information about the event and further photographs, please visit"
 
   - year: 2023
     description: "Our first ever Blooms and Tunes event launched with the theme 'English Country Garden'. A wonderful community weekend enjoyed by over 300 visitors."
