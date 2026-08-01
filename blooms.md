@@ -25,12 +25,12 @@ display to display at their own pace.
 
 ## About the Arrangers
 
-All the arrangers are keen enthusiasts from the local area.  Everyone has a different level of  experience and ability but each brings fresh ideas and energy to the festival.  We actively welcome anyone who would like to have a go. .
+All the arrangers are keen enthusiasts from the local area.  Everyone has a different level of  experience and ability but each brings fresh ideas and energy to the festival.  We actively welcome anyone who would like to have a go.
 
 
 ## About the Flowers
 
-We are keen for the festival to be as sustainable as possible and therefore source our flowers locally.  The majority of flowers used in the displays come from Home Close Flowers (https://www.homecloseflowers.co.uk/) in Sibford Ferris (12 miles away).  All other flowers and foliage come from the gardens in Duns Tew and surrounding villages.
+We are keen for the festival to be as sustainable as possible and therefore source our flowers locally.  The majority of flowers used in the displays come from [Home Close Flowers](https://www.homecloseflowers.co.uk/) in Sibford Ferris (12 miles away).  All other flowers and foliage come from the gardens in Duns Tew and surrounding villages.
 
 ---
 
