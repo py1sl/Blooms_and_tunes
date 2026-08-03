@@ -22,7 +22,7 @@ days:
         notes: "Evening Concert - ticketed event"
 
   - date: "Sunday 23rd May 2027"
-     sessions:
+    sessions:
       - time: "13:00"
         performer: "TBC"
         type: "Choral"
