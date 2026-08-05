@@ -27,6 +27,7 @@ title: Home
 <figure class="hero-image">
   <img src="{{ '/assets/images/event.jpg' | relative_url }}"
        alt="Blooms and Tunes">
+</figure>
 
 
 ## About the Event
