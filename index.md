@@ -4,30 +4,32 @@ title: Home
 ---
 
 <div class="hero">
-  <h1>Welcome to Blooms and Tunes 2027</h1>
-  <p class="blurb">
-    Join us for a wonderful three days of spectacular flower displays and live music at St Mary Magdalene Church, Duns Tew. 
-  </p>
-  <div class="event-meta">
-    <div class="event-meta-item">
-      <strong>Dates:</strong>
-      <span>{{ site.event.dates }}</span>
-    </div>
-    <div class="event-meta-item">
-      <strong>Location:</strong>
-      <span>{{ site.event.location }}</span>
-    </div>
-    <div class="event-meta-item">
-      <strong>Admission:</strong>
-      <span>Afternoons Free — donations welcome, Evening concerts - £X</span>
+  <div class="hero-text">
+    <h1>Welcome to Blooms and Tunes 2027</h1>
+    <p class="blurb">
+      Join us for a wonderful three days of spectacular flower displays and live music at St Mary Magdalene Church, Duns Tew. 
+    </p>
+    <div class="event-meta">
+      <div class="event-meta-item">
+        <strong>Dates:</strong>
+        <span>{{ site.event.dates }}</span>
+      </div>
+      <div class="event-meta-item">
+        <strong>Location:</strong>
+        <span>{{ site.event.location }}</span>
+      </div>
+      <div class="event-meta-item">
+        <strong>Admission:</strong>
+        <span>Afternoons Free — donations welcome, Evening concerts - £X</span>
+      </div>
     </div>
   </div>
+  <figure class="hero-image">
+    <img src="{{ '/assets/images/event.jpg' | relative_url }}"
+         alt="Blooms and Tunes"
+         height="320">
+  </figure>
 </div>
-
-<figure class="hero-image">
-  <img src="{{ '/assets/images/event.jpg' | relative_url }}"
-       alt="Blooms and Tunes">
-</figure>
 
 
 ## About the Event
