@@ -33,7 +33,6 @@ title: Tunes
           <br><small>{{ session.notes }}</small>
           {% endif %}
         </td>
-        <td class="venue-col">{{ session.venue }}</td>
         <td>{{ session.type }}</td>
       </tr>
       {% endfor %}
