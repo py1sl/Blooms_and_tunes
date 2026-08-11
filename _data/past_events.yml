@@ -24,7 +24,7 @@ years:
         caption: "The Gruffalo - created by Clare Burgess and Susan Birks"
       - src: /assets/images/gallery/2025-11.jpg
         caption: "The Garden of Eden from The Bible - created by Rikje Haschen"
-      - src: /assets/images/gallery/2026-12.jpg
+      - src: /assets/images/gallery/2025-12.jpg
         caption: "Village Christmas: And other Notes on the English Year - May - created by Alison Day"
       - src: /assets/images/gallery/2025-13.jpg
         caption: "The Tiger Who Came To Tea - created by Melissa and Amelie Dinwiddy"
@@ -36,9 +36,10 @@ years:
         caption: "Lessons in Chemistry - created by Jo Lilley"
       - src: /assets/images/gallery/2025-17.jpg
         caption: "The Wood – the Life and Times of Cockshutt Wood - created by Jane McBean and Helen Hamilton "
-      - src: /assets/images/gallery/2026-18.jpg
+      - src: /assets/images/gallery/2025-18.jpg
         caption: "Paddington - created by Abigail Lilley"
-    description: "For more information about the event and further photographs, please visit [here](https://media.acny.uk/media/venues/page/attachment/2025/06/64ff99a2-1052-4793-aa8d-d854789453fb.pdf)"
+  description: "For more information about the event and further photographs, please visit [here](https://media.acny.uk/media/venues/page/attachment/2025/06/64ff99a2-1052-4793-aa8d-d854789453fb.pdf)"
+    
 
   - year: 2023
     description: "Our first ever Blooms and Tunes event launched with the theme 'A Year in Duns Tew'. Arrangers chose events that take place, or groups and societies that meet in Duns Tew throughout the year, and created incredible floral displays for each one."
@@ -73,9 +74,8 @@ years:
         caption: "Summer Wedding - created by Emma O'Farrell"
       - src: /assets/images/gallery/2023-15.jpg
         caption: "Sustainable Duns Tew - created by Jo Lilley"
-      - src: /assets/images/gallery/2022-16.jpg
+      - src: /assets/images/gallery/2023-16.jpg
         caption: "Tug of War - created by Alison Day and Susan Birks"
-      - src: /assets/images/gallery/2022-17.jpg
+      - src: /assets/images/gallery/2023-17.jpg
         caption: "Wildlife - created by Jayne Wilesmith"
-       
 description: "For more information about the event and further photographs, please visit [here](https://media.acny.uk/media/venues/page/attachment/2025/02/9394082a-64ee-4da2-9cd0-fa1ee589d907.pdf)"
