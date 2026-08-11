@@ -44,16 +44,16 @@ We look forward to welcoming you!
 
 ## Timings
 
-Friday 21st May
-13:00-16:30 - Floral Focus (no music)
-19:00 - Evening concert
-
-Saturday 22nd May
-13:00-16:30 - Flowers and music
-19:00 - Evening concert
-
-Sunday 23rd May
-13:00-16:30 - Flowers and music
+<p>Friday 21st May</p>
+<p>13:00-16:30 - Floral Focus (no music)</p>
+<p>19:00 - Evening concert</P>
+<br>
+<p>Saturday 22nd May</p>
+<p>13:00-16:30 - Flowers and Music</p>
+<p>19:00 - Evening concert</P>
+<br>
+<p>Sunday 23rd May</p>
+<p>13:00-16:30 - Flowers and Music</p>
 
 ---
 
