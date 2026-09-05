@@ -22,4 +22,4 @@ Blooms and Tunes began in 2023 and has become a biennial highlight. Explore each
 ---
 
 *Photographs may be used for personal and non-commercial purposes with credit to
-St Mary's Church, Anytown. For other uses please [contact us](mailto:{{ site.church.email }}).*
+St Mary's Church, Duns Tew. For other uses please [contact us](mailto:{{ site.church.email }}).*
