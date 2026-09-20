@@ -20,7 +20,7 @@ title: Home
       </div>
       <div class="event-meta-item">
         <strong>Admission:</strong>
-        <span>Afternoons Free — donations welcome, Evening concerts - £X</span>
+        <span>Afternoons Free — donations welcome, Evening concerts - tickets available soon</span>
       </div>
     </div>
   </div>
