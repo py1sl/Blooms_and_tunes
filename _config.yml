@@ -15,6 +15,7 @@ event:
   year: 2027
   dates: "21st - 23rd May 2027"
   location: St Mary Magdalene Church, Duns Tew
+  show_music_timetable: false
 
 # Build settings
 markdown: kramdown

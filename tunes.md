@@ -12,6 +12,7 @@ title: Tunes
 <p>We are complementing the informal music afternoons with two, more formal, evening concerts on the Friday and Saturday.  These will be ticketed events with more information available soon.</p>
 <p>Details of the music programme will be provided soon:</p>
 
+{% if site.event.show_music_timetable %}
 {% for day in site.data.timetable.days %}
 <div class="timetable-day">
   <h2>{{ day.date }}</h2>
@@ -40,6 +41,7 @@ title: Tunes
   </table>
 </div>
 {% endfor %}
+{% endif %}
 
 ---
 
